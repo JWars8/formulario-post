@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/signicom/public_html/formulario
+    - /bin/cp index.html $DEPLOYPATH
